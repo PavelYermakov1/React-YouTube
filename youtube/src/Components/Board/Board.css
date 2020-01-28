@@ -1,0 +1,18 @@
+.board {
+    --card-width: calc(100vw / var(--cards-per-page) - var(--card-margins));
+    display: flex;
+    width: calc(var(--cards) * 100vw / var(--cards-per-page));
+    transform: translate(
+      calc(var(--page, 0) * -100vw + var(--slide, 0px))
+    );
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    opacity: 1;
+  }
+  
+  .board_transparent {
+    opacity: 0;
+  }
+  
+  .sliding {
+    transition: transform 0.1s ease-out;
+  }

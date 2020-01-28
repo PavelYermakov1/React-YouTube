@@ -1,0 +1,37 @@
+.searchbox {
+    display: flex;
+    width: 75vw;
+    height: 8vh;
+    flex-shrink: 0;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #b20000bf;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.25);
+    transition: 1s cubic-bezier(0.2, 1, 0.5, 1);
+  }
+  
+  .searchbox_initial {
+    border-color: #b20000;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+  
+  .searchbox__submit {
+    width: 7vh;
+    height: 7vh;
+    border: none;
+    background-color: transparent;
+    background-image: url(./images/icon-search.svg);
+    background-repeat: no-repeat;
+    background-size: 6vh;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .searchbox__input {
+    width: 90%;
+    height: 90%;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+  }

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=cyrillic");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 1vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+  touch-action: none;
+}
+
+input:focus {
+  outline: none;
+}

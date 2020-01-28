@@ -1,0 +1,39 @@
+@media screen and (min-width: 1025px) {
+    body {
+      --cards-per-page: 4;
+    }
+  
+    .board {
+      --card-margins: 5vw;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    body {
+      --cards-per-page: 3;
+    }
+  
+    .board {
+      --card-margins: 10vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      --cards-per-page: 2;
+    }
+  
+    .board {
+      --card-margins: 15vw;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    body {
+      --cards-per-page: 1;
+    }
+  
+    .board {
+      --card-margins: 20vw;
+    }
+  }

@@ -71,7 +71,12 @@ const App = () => {
             onPageChange={setPage}
             onPreload={handleDataPreload}
           />
-          <Buttons />
+          <Buttons
+            numberOfPages={cards.length / cardsPerPage}
+            page={page}
+            onPageChange={setPage}
+            onPreload={handleDataPreload}
+          />
         </>
       )}
     </>

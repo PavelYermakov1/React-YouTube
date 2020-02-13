@@ -2,7 +2,7 @@
 const stringify = (options) => Object.entries(options)
   .map(([name, value]) => `${name}=${value}&`)
   .join('');
-global.console.log('stringify', stringify);
+
 const createQuery = ({ queryType, options }) => {
   const baseLink = 'https://www.googleapis.com/youtube/v3';
   const stringifiedOptions = stringify(options);
